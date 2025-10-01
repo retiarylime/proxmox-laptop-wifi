@@ -4,15 +4,15 @@ A compiled guide to install proxmox on a laptop without the need of ethernet cab
 ### Prerequisite:
 1. Laptop with minimum system requirements to run Proxmox
 2. Home wifi
-3. Two USB flash drive at least 4GB each (I will name them as USB Q & USB R)
+3. Two USB flash drive at least 4GB each (I will name them as USB A & USB B)
 4. [Rufus](https://rufus.ie/en/)
 5. [Proxmox iso](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso "Proxmox iso")
 6. Debian packages - [wpa_supplicant](https://packages.debian.org/search?keywords=wpasupplicant "wpa_supplicant"), [rfkill](https://packages.debian.org/search?suite=default&section=all&arch=any&searchon=names&keywords=rfkill)
 _(*dont forget to download dependencies for each package i.e. libnl-genl, libpsclite)_
 
 ## Step-by-step
-1. USB Q: Download the proxmox iso and flash it into USB Q using Rufus.
-2. USB R: Download all the required debian packages together with their dependencies. Save all the files into USB R.
+1. USB A: Download the proxmox iso and flash it into USB Q using Rufus.
+2. USB B: Download all the required debian packages together with their dependencies. Save all the files into USB R.
 3. Boot into the USB Q & proceed with installation. 
 4. You will automatically reboot into the proxmox VE. Login with root account.
 5. You will have no internet connection at this point. Don't worry cuz we gonna setup the wifi interface manually.
