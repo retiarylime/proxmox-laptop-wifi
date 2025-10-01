@@ -12,7 +12,7 @@ _(*dont forget to download dependencies for each package i.e. libnl-genl, libpsc
 
 ## Step-by-step
 1. USB A: Download the proxmox iso and flash it into USB A using Rufus.
-2. USB B: Download all the required debian packages together with their dependencies. Save all the files into USB R.
+2. USB B: Download all the required debian packages together with their dependencies. Save all the files into USB B.
 3. Boot into the USB A & proceed with installation. 
 4. You will automatically reboot into the proxmox VE. Login with root account.
 5. You will have no internet connection at this point. Don't worry cuz we gonna setup the wifi interface manually.
